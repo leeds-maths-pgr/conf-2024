@@ -1,4 +1,4 @@
-baseURL = 'https://leeds-maths-pgr.github.io/conf-2023/'
+baseURL = 'https://leeds-maths-pgr.github.io/conf-2024/'
 languageCode = 'en-gb'
 title = 'University of Leeds SoM PGR Conference'
 theme = "leeds_pgr_basic"

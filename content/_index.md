@@ -1,17 +1,13 @@
-The Leeds School of Mathematics is proud to host its annual postgraduate research conference, bringing together students from all groups and years to share their research.
-This year's conference will take place on June 14-16, 2023, in the School of Mathematics building.
-The conference provides an excellent opportunity for postgraduate researchers to present their work, receive feedback from their peers, and engage in valuable discussions about current research trends and future directions.
+The Leeds University School of Mathematics is proud to host its annual conference specially for the postgraduate researchers, bringing together PGRs across all groups and years to:
+- foster understanding of what other people in the School of Maths are doing;
+- strengthen the community within the School of Maths; and
+- remind ourselves that there is (much) more to life than research!
 
-Participants can either give a talk or present a poster, and the conference will include a dedicated poster session.
+This year's conference will be held at **Roger Stevens LT15 (11.15)**, from **Wednesday 3 to Friday 5 July 2024**.
+
+Participants can give a talk and/or present a poster: fascinating talks will be scattered over the three days and posters will be appreciated along with cheese and wine. Plus, there will be prizes awarded to two best talks and one best poster, and the winner can choose their preferred reward from an Amazon voucher, a book voucher, or planting a tree.
 We welcome [submissions](./call_for_speakers) from all PGRs in the School of Mathematics!
 
-This edition of the conference is organised by:
-[Anna Sigalou](https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8778/anna-sigalou),
-[Gautam Chaudhuri](https://eps.leeds.ac.uk/maths/pgr/10184/gautam-chaudhuri),
-Luca Seemungal,
-[Matteo Spadetto](https://eps.leeds.ac.uk/maths/pgr/8476/matteo-spadetto),
-Mingrui Zhang,
-[Muyang Zhang](https://eps.leeds.ac.uk/maths/pgr/6422/muyang-zhang),
-[Samuel Myers](https://eps.leeds.ac.uk/maths/pgr/11715/samuel-myers),
-[Shuang Zheng](https://eps.leeds.ac.uk/maths/pgr/6228/shuang-zheng).
-We would also like to recognise the invaluable advice and assistance provided by the PGRT [Martin Speight](https://eps.leeds.ac.uk/maths/staff/4079/professor-martin-speight).
+Apart from the PGR talks and posters, we also have an exciting line-up of events and activities planned, including invited talks by Max ([MathCity](https://mathscity.co.uk/)) and Richard ([Leeds-Africa Hub](https://leeds-africa-hub.github.io/index.html)), academic and non-academic career sessions, a workshop on maths communication, and a pub quiz. 
+
+Lastly we would like to remind you that breakfast and lunch will be provided. Do come and join us if you are around and we look forward to seeing you there!
