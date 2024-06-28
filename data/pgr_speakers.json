@@ -1,129 +1,104 @@
 {
     "speakers": [
-        {"id": "01",
+        {"id": "AM",
+        "name": "Angus Matthews",
+        "title": "The F-Conviviality graph",
+        "abstract": "In this talk we will introduce the F-conviviality graph, a concept from matroid theory, and discuss its connections to model theory."
+        },
+        {"id": "AS",
+         "name": "Anna Sigalou",
+         "title": "Long-term behaviour social decision-making rules",
+         "abstract": "Faced with choices under uncertainty, social animals source information from their conspecifics. This social information can help mitigate against poor personal information, and ameliorate decision-making quality; but it may also amplify poor information, leading to poor information cascades. A crucial factor in determining the outcome of social decision-making is the way social information is used by animals -i.e. their decision-making strategy. By modeling decision-making as a Markov process, we can get insights about the long-term tendencies of different decision-making strategies. Subsequently we can infer which strategies are more prone to traits such as poor information cascades. Lastly, by comparing the observed behaviour of different species and the predictions on the aforementioned models, we can make educated guesses about the underlying decision-making mechanisms these species follow."
+        },
+        {"id": "CRS",
+         "name": "Calliope Ryan-Smith",
+         "title": "Domination and boundedness",
+         "abstract": "Bounding and domination are relationships between sequences of numbers that are studied in set theory and give us insight into the structure of the set of real numbers. I shall present an overview of these relations and describe their importance to set theory."
+        },
+        {"id": "LG",
+         "name": "Lenny Greenfield",
+         "title": "Orbits on Graph Colourings ",
+         "abstract": "We consider the set of all possible colourings of a finite graph using a finite number of colours. We define an action of the automorphism group of the graph on the set of all colourings where two colourings are equivalent if there exists an automorphism that moves the colours of vertices in one colouring to the colours of vertices in the other colouring. In this talk we will discuss methods for calculating the number of distinct colourings when the automorphism group action on the graph is primitive."
+        },
+        {"id": "MA",
          "name": "Matthew Asker",
-         "title": "Coexistence of competing microbial strains under twofold environmental variability and demographic fluctuations",
-         "abstract": "Microbial populations generally evolve in volatile environments, under conditions fluctuating between harsh and mild, e.g. as the result of sudden changes in toxin concentration or nutrient abundance. Environmental variability thus shapes the population long-time dynamics, notably by influencing the ability of microorganisms to coexist. Inspired by the evolution of antimicrobial resistance, we study the dynamics of a community consisting of two competing strains subject to twofold environmental variability. The level of toxin varies in time, favouring the growth of a strain under low drug level and the other when the toxin level is high. We also model time-changing resource abundance by a randomly switching carrying capacity that drives the fluctuating size of the community. While one strain always dominates in a static environment, we show that species coexistence is possible in the presence of environmental variability. By computational and analytical means, we determine the environmental conditions under which long-lived coexistence is possible and when it is almost certain. We study the circumstances under which environmental and demographic fluctuations promote, or hinder, the strains coexistence.  We also determine how the make-up of the coexistence phase and the average abundance of each strain depend on the environmental variability."
+         "title": "Spatial Structure and Environmental Dynamics in Microbial Populations",
+         "abstract": "Microbial populations evolve within spatially structured and dynamically changing environments, a reality often overlooked by classical modelling approaches. From microbial infections spreading across host organs to environmental pollutants altering ecological niches, understanding the effects of and interplay between spatial structure and environmental change is essential for developing insights into the evolutionary dynamics of microbial communities. Here, we present a comprehensive analysis of a two-species metapopulation model, incorporating selection bias, to investigate how microbial species evolve while competing for a varying level of resources. Our analytical framework provides insights into the non-trivial behaviour of the fixation probability and mean fixation time across network structures in one dimension. Additionally, Monte Carlo simulations offer a deeper understanding of the complex dynamics on a two-dimensional lattice, extending beyond the scope of analytical predictions. By combining analytical and computational methodologies, we uncover the rich dynamics underlying microbial population evolution in spatially structured and dynamically changing environments."
+        },
+        {"id": "MV",
+         "name": "Matthew Vine",
+         "title": "Parametric Instabilities of Alfvén-Gravity Waves",
+         "abstract": "In Boussinesq fluids, instabilities of small-amplitude internal gravity waves (IGWs) can be attributed to resonant triad interactions between three IGWs. The picture is a little more complex when we introduce a uniform background magnetic field. Under this configuration, two types of wave can partake in the resonant interactions: pure Alfvén waves and hybrid Alfvén-gravity waves. We contour the growth rate of such instabilities numerically using a Floquet solver and identify which types of wave are interacting to produce the instabilities shown. This work is relevant in stably-stratified fluids permeated by magnetic fields, with radiative zones in stellar interiors being a notable example."
+        },
+        {"id": "MT",
+         "name": "Mervyn Tong",
+         "title": "Graph-theoretic tameness via model theory",
+         "abstract": "Tameness is a desirable attribute in every area of mathematics. I present two problems in graph theory that reflect two facets of combinatorialists' pursuit of tameness in graphs: Zarankiewicz's problem, which asks for bounds on the size of a graph that omits a certain configuration, and Szemerédi's regularity lemma, which allows a graph to be partitioned into well-behaved cells. Along the way, I discuss how model theory helps us to both understand the reason behind such tameness phenomena and provide better bounds."
+        },
+        {"id": "BDS",
+         "name": "Ben De Smet",
+         "title": "TBD",
+         "abstract": "TBD"
+        },
+        {"id": "LS",
+         "name": "Luca Seemungal",
+         "title": "TBD",
+         "abstract": "TBD"
+        },
+        {"id": "HD",
+         "name": "Hope Duncan",
+         "title": "TBD",
+         "abstract": "TBD"
+        },
+        {"id": "BM",
+         "name": "Benjamin Morris",
+         "title": "TBD",
+         "abstract": "TBD"
+        },
+        {"id": "YL",
+         "name": "Yang Lu",
+         "title": "TBD",
+         "abstract": "TBD"
+        },
+        {"id": "01",
+         "name": "Gautam Chaudhuri",
+         "title": "TBD",
+         "abstract": "poster"
         },
         {"id": "02",
-         "name": "Shuangshuang Shu",
-         "title": "What is forcing?",
-         "abstract": "Mathematics starts from counting, and so we have the notion of natural numbers. By taking additive closure, we obtain the integers, and by taking multiplicative closure, we obtain the rationals. This is all very finitary and algebraic, but from the rationals to the real numbers, we have to imagine that we have \"filled up the gaps in the rationals\". It is well-known that in our current mathematical system (ZFC), we cannot decide how many reals there are. This fact is tied to the elusive imaginary nature of the reals."
+         "name": "Thomas Bernert",
+         "title": "TBD",
+         "abstract": "poster"
         },
         {"id": "03",
-         "name": "Matteo Spadetto",
-         "title": "What is a dependent type theory?",
-         "abstract": "We present a short introduction to what a dependent type theory is and to the category theoretic tools used to phrase its semantics."
+         "name": "Benjamin Morris",
+         "title": "TBD",
+         "abstract": "poster"
         },
         {"id": "04",
-         "name": "Yijun Fu",
-         "title": "Classification trees based on distance measures and discriminant functions",
-         "abstract": "The Classification and Regression Tree (CART) (Breiman, 1984), a decision tree algorithm used for classification, is one of the most important machine learning algorithms. However, CART generates classification trees using only one feature in each split, which may lead to a complex tree structure and high computational cost. Various distance-based trees, linear discriminant and quadratic discriminant-based trees have been proposed to improve the performance of classification trees. This talk investigates four distance-based classification tree models which simplify the tree structure and can improve the performance of CART. We propose classification tree models using Euclidean distance, Mahalanobis distance, Linear discriminant function and Quadratic discriminant function to define splitting rules. A modified cost-complexity pruning method is combined with our proposed distance-based classification trees to avoid overfitting. We compare the performance of our proposed models with that of CART on simulated and real data sets."
+         "name": "Sarah Almateari",
+         "title": "Representation of monoidal category",
+         "abstract": "poster"
         },
         {"id": "05",
-         "name": "Bradley Ryan",
-         "title": "Character varieties and symmetric polynomials",
-         "abstract": "We shall briefly introduce the idea of character varieties, focusing on the particular example of the four-punctured Riemann sphere. By following the work of Hausel-Letellier-Rodriguez-Villegas, one can use some theory about Young diagrams and symmetric functions to show that the character variety of interest is connected. Although time prevents us from explaining this in detail, it really boils down to something combinatorial. Finally, we make some comments on additional situations, and on how this is involved with my primary interest in double affine Hecke algebras."
+         "name": "Norah Almasoud",
+         "title": "TBD",
+         "abstract": "poster"
         },
         {"id": "06",
-         "name": "Jacob Smith",
-         "title": "Title TBD",
-         "abstract": "Abstract TBD"
+          "name": "Yijun Fu",
+          "title": "Classification trees based on distance measures and discriminant functions",
+          "abstract": "poster"
         },
         {"id": "07",
-         "name": "Nils de Vries",
-         "title": "Title TBD",
-         "abstract": "In this talk I will attempt to give a general introduction to tides and the research that goes into studying them. I will start by highlighting a few tidal effects on celestial bodies and explain the evidence present for them. The goal of tidal research, then, is to be able to explain these effects. To understand the research, I will first explain the fundamental idea how tides arise due to gravity. Then I will discuss how and why tides result in energy dissipation and angular momentum transfer. Finally, I will summarise the fundamental idea behind a choice of tidal dissipation mechanisms and the associated tidal research and how these connect back to the effects tides have on celestial bodies."
+         "name": "Puchong Paophan",
+         "title": "TBD",
+         "abstract": "poster"
         },
         {"id": "08",
-         "name": "Luca Seemungal",
-         "title": "Blowing bubbles in curved ambient spaces",
-         "abstract": "In this talk, we blow bubbles in flat and curved ambient spaces to glean information about the geometry and topology of the ambient space."
-        },
-        {"id": "09",
-         "name": "Mostafa Soroor",
-         "title": "Numerical optimization of a vortex t-mixer for stopped-flow device: maximizing mixing index and minimizing deadtime",
-         "abstract": "Stopped-flow devices are extensively employed for monitoring dynamic reactions with high temporal resolution. While these devices have demonstrated their utility in nanoparticle analysis, there is still room for optimization. This study focuses on the optimization of a vortex T-mixer suited for operation at Synchrotron facilities in terms of its mixing index and deadtime. The mixing index serves as a criterion for assessing the degree of mixing, enabling comparison across different geometric dimensions and facilitating geometry optimization. Deadtime refers to the time interval between the initial contact of two fluids and the point of analysis. Given that reactions typically occur within milliseconds, minimizing deadtime is crucial. In this investigation, 24 different geometric dimensions of the vortex T-mixer were examined at a fixed flow rate. An optimized vortex T-mixer configuration with a mixing index of 0.96 was successfully identified through this computational study. Additionally, a Reynolds number (flow rate) which gave both a favourable mixing index and minimal deadtime was identified. Notably, the findings revealed that increasing the Reynolds number beyond 200 does not lessen the mixing index but only shortens the deadtime. Furthermore, the optimal location for the viewing window was identified, minimizing the deadtime. This finding can be utilized to manufacture a stopped-flow chip, with simulation results to be validated through Fluorescent experiments. By optimizing the vortex T-mixer and enhancing the understanding of its performance parameters, this research contributes to the advancement of dynamic reaction monitoring techniques."
-        },
-        {"id": "10",
-         "name": "Tommy Bernert",
-         "title": "Title TBD",
-         "abstract": "Abstract TBD"
-        },
-        {"id": "11",
-         "name": "Alfensi Faruk",
-         "title": "Measures of prediction performance for non-proportional hazards models",
-         "abstract": "We propose several discrimination measures to assess the performance of non-proportional hazards models, including time-dependent Uno’s C-index and pair calibration, which the former outperforms the standard Antolini’s time-dependent concordance. We prove the convergence of our estimators based on Nolan and Pollard’s results for U-statistics. We investigate the proposed discrimination measures using real and simulated data."
-        },
-        {"id": "12",
-         "name": "Matt Vine",
-         "title": "A mathematical introduction to Alfvén-gravity waves",
-         "abstract": "I'll discuss the mathematical fundamentals of both Alfvén waves and internal gravity waves in isolation, as well as what happens when we combine the two. For each type of wave, I'll demonstrate how their dispersion relation can be derived from their respective equations of motion. This is to be followed by taking a look at their phase and group velocities, from which we can deduce several physical properties."
-        },
-        {"id": "13",
-         "name": "Luke Gostelow",
-         "title": "Solving Poisson's Equation in a Fourier-Chebyshev Basis",
-         "abstract": "One can show that Poisson's equation in a Fourier-Chebyshev basis can be written as a split-quasi-tridiagonal system. Iterative methods exist for solving linear QTD systems and these can be adapted to our case. Overall, this method is useful for solving Poisson’s equation in a channel as it is faster than Gaussian elimination and more accurate and efficient than matrix inversion. We will show an example where this method can be used to aid simulations of the instability of a two-dimensional flow through a wide channel."
-        },
-        {"id": "14",
-         "name": "Luca Mesiti",
-         "title": "Title TBD",
-         "abstract": "Abstract TBD"
-        },
-        {"id": "15",
-         "name": "Ibrahim Mohammed",
-         "title": "Model theory of Real closed fields ",
-         "abstract": "Real closed fields are ordered fields such that any quadratic and odd degree polynomial has a root, with examples being the reals and the reals intersected with the algebraic closure of the rational numbers. The theory of real closed fields can be translated smoothly to model theory, which allows us to give slick proofs of certain classical results, such as Hilbert's 17th problem, which asks if any positive semi-definite real polynomial can be written as a sum of squares.  In this talk I'll give an introduction to model theory and sketch the proof of the solution to Hilbert's 17th problem."
-        },
-        {"id": "16",
-         "name": "Oscar Brauer",
-         "title": "Cohomological field theories, a 15 minute introduction",
-         "abstract": "We do a brief review of cohomological field theories, a class of topological quantum field theories that incorporate cohomology. The talk begins with a brief introduction to the foundations of quantum field theory and algebraic topology, focusing on the concepts most relevant to cohomological field theories. We will also explore specific examples of cohomological field theories, such as Gromov-Witten theory and Moduli spaces, and discusses their practical applications. We finalize discussing current research and future prospects in the field."
-        },
-        {"id": "17",
-         "name": "Aris Papadopoulos",
-         "title": "Ramsey's parties were always the best",
-         "abstract": "Abstract: Picture this. You want to throw a party this Saturday and need to make sure that it’s successful. In the latest issue of “Parties Magazine” you found out that there are just two ways that a party could fail to be successful: (1) There aren’t large enough groups of people that are all strangers to each other, or (2) There aren’t large enough groups of people that are all friends with each other. In either case (according, always, to “Parties Magazine”) your party will not be homogeneous enough and interactions will be awkward. If this is your situation, please come to my talk."
-        },
-        {"id": "18",
-         "name": "Calliope Ryan-Smith",
-         "title": "A metaphor for cardinal characteristics",
-         "abstract": "Cardinal characteristics of the continuum are a study of the undecidability of ZFC, or more generally of mathematics itself, by inspecting the possible values of infinities defined in relation to the real numbers, and what we can prove about those infinities. That's a lot of complicated words, so I will present an analogue of this that uses finite numbers instead."
-        },
-        {"id": "19",
-         "name": "Puchong Paophan",
-         "title": "Title TBD",
-         "abstract": "poster"
-        },
-        {"id": "20",
-         "name": "Sam Myers",
-         "title": "Title TBD",
-         "abstract": "poster"
-        },
-        {"id": "21",
-         "name": "Minzhen Xie",
-         "title": "Title TBD",
-         "abstract": "poster"
-        },
-        {"id": "22",
-         "name": "Muyang Zhang",
-         "title": "Title TBD",
-         "abstract": "poster"
-        },
-        {"id": "23",
-         "name": "Paul Leask",
-         "title": "Quantized and gravitating multi-wall skyrmion crystals with applications to neutron stars",
-         "abstract": "poster"
-        },
-        {"id": "24",
-          "name": "Tathagata Ghosh",
-          "title": "Yang-Mills Equations and Instantons",
-          "abstract": "The Yang-Mills equations are generalizations of Maxwell's equations of Electromagnetism. Instantons are solutions of the \"Instanton equations\" and also satisfy the Yang-Mills equations. These equations are of interest to both differential geometers and theoretical physicists. First, I shall describe a simpler way to write Maxwell's equations using the notions of differential forms and Hodge star operator. This will help us to introduce the Yang-Mills equation as a generalisation of Maxwell's equation. We shall also discuss instantons very briefly. Rest of the talk will be spent on giving the motivation behind such generalisations."
-        },
-        {"id": "25",
-          "name": "Mervyn Tong",
-          "title": "The only theorem in model theory",
-          "abstract": "Once dubbed the “only theorem in model theory”, the Compactness Theorem has the power to greatly simplify a wide range of mathematical proofs, and should thus be an essential in every mathematician’s toolbox. In this talk, we will see one such application in group theory, and use the theorem as a lens to examine a key feature of first-order logic."
+          "name": "Xiangyu Wu",
+          "title": "TBD",
+          "abstract": "poster"
         }
     ]
 }

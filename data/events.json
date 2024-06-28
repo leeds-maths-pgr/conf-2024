@@ -1,31 +1,29 @@
 {
     "events": {
         "ext1":{
-            "display": "Plenary talk: Philosophy of Mathematics",
+            "display": "Plenary talk: TBD",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Helen Beebee — University of Leeds"
+            "speaker": "Richard Mann — University of Leeds"
         },
-        "ext2":{
-            "display": "Plenary talk: Communicating Mathematics",
+        "workshop1":{
+            "display": "Careers Workshop",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Kevin Houston — University of Leeds"
+            "speaker": "Steve — Careers Centre, University of Leeds "
         },
-        "workshop":{
-            "display": "Workshop",
+        "workshop2":{
+            "display": "MathsCity Workshop",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Rob Sturman — University of Leeds"
+            "speaker": "Max — MathsCity"
         },
-        "panelacc": {
+        "panelaca": {
             "display": "Academic careers panel",
             "type": "alt-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "Georgios Aivaliotis — University of Leeds",
-                "Farrokh Atai — University of Leeds",
-                "Josh Cork — University of Leicester"
+                "TBD"
             ]
         },
         "panelnon": {
@@ -33,9 +31,7 @@
             "type": "alt-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "Annah Muli",
-                "Dominic Pinto",
-                "Joseph Elmes"
+                "TBD"
             ]
         },
         "pgr1": {
@@ -43,9 +39,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "01",
-                "24",
-                "03"
+                "MT",
+                "AS"
             ]
         },
         "pgr2": {
@@ -53,9 +48,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "04",
-                "05",
-                "06"
+                "MA",
+                "LS"
             ]
         },
         "pgr3": {
@@ -63,9 +57,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "07",
-                "08",
-                "09"
+                "CRS",
+                "BM"
             ]
         },
         "pgr4": {
@@ -73,9 +66,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "10",
-                "11",
-                "12"
+                "LG",
+                "HD"
             ]
         },
         "pgr5": {
@@ -83,9 +75,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "13",
-                "14",
-                "15"
+                "AM",
+                "YL"
             ]
         },
         "pgr6": {
@@ -93,9 +84,8 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "16",
-                "25",
-                "02"
+                "MV",
+                "BDS"
             ]
         },
         "pgrp": {
@@ -103,11 +93,14 @@
             "type": "pgr-pres",
             "format": "multi-speaker",
             "speakerlist": [
-                "19",
-                "20",
-                "21",
-                "22",
-                "23"
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
             ]
         }
     }

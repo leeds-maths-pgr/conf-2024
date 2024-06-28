@@ -1,0 +1,280 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #D4DDE3;
+  display: flex;
+  flex-direction: column; }
+
+header.page, footer.page {
+  background-color: #5A7087;
+  z-index: 10;
+  width: 97.5vw;
+  margin: 0;
+  padding: 2vh 0 2vh 2.5vw; }
+  @media (min-width: 800px) {
+    header.page, footer.page {
+      width: 100vw;
+      margin: 0;
+      padding: 2vh 0 2vh 2.5vw; } }
+  @media (min-width: 990px) {
+    header.page, footer.page {
+      width: 80vw;
+      padding: 4vh 5vw;
+      margin: 0; } }
+  @media (min-width: 1200px) {
+    header.page, footer.page {
+      width: 80vw;
+      padding: 5vh 10vw;
+      margin: 0; } }
+header.page {
+  top: 0; }
+
+section.content {
+  z-index: 0;
+  width: 90vw;
+  margin: 1.5vh 5vw;
+  padding: 1vh 0;
+  flex: 1 0 auto; }
+  @media (min-width: 800px) {
+    section.content {
+      width: 85vw;
+      margin: 2vh 5vw;
+      padding: 2.5vh 2.5vw;
+      padding-top: 1.5vh; } }
+  @media (min-width: 990px) {
+    section.content {
+      width: 70vw;
+      margin: 5vh 12.5vw;
+      padding: 2.5vh 2.5vw; } }
+  @media (min-width: 1200px) {
+    section.content {
+      width: 60vw;
+      margin: 5vh 17.5vw;
+      padding: 2.5vh 2.5vw; } }
+footer.page {
+  flex-shrink: 0; }
+
+span.line {
+  display: inline-block; }
+
+body {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.4; }
+  body p {
+    margin-bottom: 0.6rem; }
+  @media (min-width: 800px) {
+    body {
+      font-size: 1.1rem;
+      line-height: 1.3; }
+      body p {
+        margin-bottom: 0.6rem; } }
+  @media (min-width: 990px) {
+    body {
+      font-size: 1.1rem;
+      line-height: 1.3; }
+      body p {
+        margin-bottom: 0.7rem; } }
+  @media (min-width: 1200px) {
+    body {
+      font-size: 1.1rem;
+      line-height: 1.3; }
+      body p {
+        margin-bottom: 1rem; } }
+h1 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 2.1rem;
+  margin: 0 0 0.5rem 0; }
+  h1 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h1 {
+      font-size: 2.1rem;
+      margin: 0 0 0.5rem 0; } }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 2.1rem;
+      margin: 0 0 0.5rem 0; } }
+h2 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 1.7rem;
+  margin: 0 0 0.3rem 0; }
+  h2 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h2 {
+      font-size: 1.9rem;
+      margin: 0 0 0.3rem 0; } }
+  @media (min-width: 1200px) {
+    h2 {
+      font-size: 1.9rem;
+      margin: 0 0 0.3rem 0; } }
+h3 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 1.6rem;
+  margin: 0 0 0.3rem 0; }
+  h3 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h3 {
+      font-size: 1.6rem;
+      margin: 0 0 0.3rem 0; } }
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 1.6rem;
+      margin: 0 0 0.3rem 0; } }
+h4 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 1.4rem;
+  margin: 0 0 0.2rem 0; }
+  h4 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h4 {
+      font-size: 1.4rem;
+      margin: 0 0 0.3rem 0; } }
+  @media (min-width: 1200px) {
+    h4 {
+      font-size: 1.4rem;
+      margin: 0 0 0.3rem 0; } }
+h5 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 1.25rem;
+  margin: 0 0 0.2rem 0; }
+  h5 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h5 {
+      font-size: 1.25rem;
+      margin: 0 0 0.25rem 0; } }
+  @media (min-width: 1200px) {
+    h5 {
+      font-size: 1.25rem;
+      margin: 0 0 0.25rem 0; } }
+h6 {
+  font-weight: 400;
+  line-height: 1.1;
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0; }
+  h6 a {
+    color: inherit !important; }
+  @media (min-width: 800px) {
+    h6 {
+      font-size: 1.2rem;
+      margin: 0 0 0.2rem 0; } }
+  @media (min-width: 1200px) {
+    h6 {
+      font-size: 1.2rem;
+      margin: 0 0 0.2rem 0; } }
+a:link {
+  color: #225DC3;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  text-decoration: underline; }
+
+a:visited {
+  color: #6D44E4; }
+
+a:active {
+  font-weight: 900; }
+
+.tooltip {
+  color: #000;
+  text-decoration: underline dotted 0.1rem !important; }
+
+header.page, footer.page {
+  color: #F0F1F8; }
+  @media (max-width: 799px) {
+    header.page h1, footer.page h1 {
+      font-size: calc(1.5rem + 1vw);
+      margin: 0.1rem 0; } }
+  header.page a, footer.page a {
+    color: #EFFAFF; }
+    header.page a:visited, footer.page a:visited {
+      color: #FAEFFF; }
+  header.page li, footer.page li {
+    line-height: 1;
+    margin: 0.25rem 1rem; }
+  @media (min-width: 800px) {
+    header.page h1, footer.page h1 {
+      margin: 0.5rem 0; }
+    header.page li, footer.page li {
+      display: inline;
+      margin: 0.25rem 0.25rem; } }
+  header.page nav > li, footer.page nav > li {
+    margin-top: 0.75rem; }
+
+section.content ul {
+  list-style: circle; }
+
+section.content ol {
+  list-style: decimal; }
+
+section.content ol, section.content ul, section.content dl {
+  margin-bottom: 0.35rem; }
+  section.content ol p, section.content ul p, section.content dl p {
+    margin-bottom: 0; }
+  section.content ol dt, section.content ul dt, section.content dl dt {
+    font-weight: 600; }
+  section.content ol li, section.content ol dd, section.content ul li, section.content ul dd, section.content dl li, section.content dl dd {
+    margin: 0;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem; }
+  @media (min-width: 800px) {
+    section.content ol, section.content ul, section.content dl {
+      margin-bottom: 0.35rem; }
+      section.content ol li, section.content ol dd, section.content ul li, section.content ul dd, section.content dl li, section.content dl dd {
+        margin: 0;
+        margin-left: 1rem;
+        margin-bottom: 0.25rem; } }
+  @media (min-width: 990px) {
+    section.content ol, section.content ul, section.content dl {
+      margin-bottom: 0.45rem; }
+      section.content ol li, section.content ol dd, section.content ul li, section.content ul dd, section.content dl li, section.content dl dd {
+        margin: 0;
+        margin-left: 1rem;
+        margin-bottom: 0.25rem; } }
+  @media (min-width: 1200px) {
+    section.content ol, section.content ul, section.content dl {
+      margin-bottom: 0.75rem; }
+      section.content ol li, section.content ol dd, section.content ul li, section.content ul dd, section.content dl li, section.content dl dd {
+        margin: 0;
+        margin-left: 1rem;
+        margin-bottom: 0.25rem; } }
+section.content em {
+  font-style: italic; }
+
+section.content strong {
+  font-weight: bold; }
+
+section.content blockquote {
+  display: block;
+  font-family: serif;
+  font-style: italic;
+  margin-left: 1rem; }
+  section.content blockquote em {
+    font-style: normal;
+    font-family: sans-serif; }
+
+section.content sup {
+  vertical-align: super;
+  font-size: 0.8rem; }
+  @media (min-width: 800px) {
+    section.content sup {
+      font-size: 0.88rem; } }
+  @media (min-width: 990px) {
+    section.content sup {
+      font-size: 0.88rem; } }
+  @media (min-width: 1200px) {
+    section.content sup {
+      font-size: 0.88rem; } }
+
+/*# sourceMappingURL=style.css.map */
