@@ -1,7 +1,7 @@
 {{ $schedule := $.Site.Data.schedule.schedule}}
 {{ $slotIDmap := $.Site.Data.schedule.slotIDmap}}
 {{ $events := $.Site.Data.events.events}}
-{{ $pgr_speakers := $.Site.Data.pgr_speakers.speakers}}
+{{ $pgr_speakers := $.Site.Data.all_speakers.speakers}}
 
 <h2>Talks</h2>
 <br>
@@ -17,7 +17,8 @@
             {{ if eq $event.format "multi-speaker" }}
                 <h4 id="{{ $data.id }}-det"> {{ $event.display }} </h4>
                 <a class="time" href="#{{ $data.id }}-tab">{{ index $slotIDmap $slotID }}</a>
-                <p><ul>
+                <p>
+                    <ul>
                     {{ if eq $event.type "pgr-pres" }}
                         {{ range where $pgr_speakers "id" "in" $event.speakerlist }}
                     <li id="pgr-{{ .id }}"><a href="/conf-2024/abstracts#pgr-{{ .id }}">{{ .name }}</a></li>
@@ -28,11 +29,11 @@
                         <li>{{ . }}</li>
                         {{ end }}
                     {{ end }}
-                </ul>
+                    </ul>
                 </p>
             {{ else if eq $event.format "single-speaker" }}
                 <h4 id="{{ $data.id }}-det"> {{ $event.display }} </h4>
-                <h5 class="speaker">{{ $event.speaker }}</h5>
+                <!-- <h5 class="speaker">{{ $event.speaker }}</h5> -->
                 <a class="time" href="#{{ $data.id }}-tab">{{ index $slotIDmap $slotID }}</a><br>
                 <br />
             {{ end }}
