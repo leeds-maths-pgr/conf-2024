@@ -16,7 +16,7 @@
                 {{ if $data.id }}
                   {{ $event:= index $events $data.id }}
             <td id="{{ $data.id }}-tab" class="{{ $event.type }}">
-                <a href="#{{ $data.id }}-det">{{ $event.display }}</a>
+                <a href="#{{ $data.id }}-list">{{ $event.display }}</a>
                 {{ else }}
             <td class="{{ $data.type }}">
                     {{ $data.display }}
