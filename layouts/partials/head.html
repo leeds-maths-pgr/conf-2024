@@ -7,6 +7,7 @@
     {{ $style := $style_css | resources.ToCSS (dict "enableSourceMap" true) | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}timetable.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}schedule.css">
 
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
