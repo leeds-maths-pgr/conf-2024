@@ -4,7 +4,8 @@
             "display": "Plenary talk",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Richard Mann: Collective decision-making by rational agents"
+            "hasAbstract": "ex1",
+            "speaker": "Richard Mann"
         },
         "workshop1":{
             "display": "Careers workshop",
@@ -16,7 +17,8 @@
             "display": "MathsCity workshop",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Max: Mathematics communication and engagement"
+            "hasAbstract": "ex2",
+            "speaker": "Max"
         },
         "panelaca": {
             "display": "Academic careers panel",
