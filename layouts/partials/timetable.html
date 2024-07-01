@@ -17,6 +17,9 @@
                   {{ $event:= index $events $data.id }}
             <td id="{{ $data.id }}-tab" class="{{ $event.type }}">
                 <a href="#{{ $data.id }}-list">{{ $event.display }}</a>
+                {{ else if eq $data.display "Posters + Cheese & Wine [RR]" }}
+            <td id="poster-tab" class="social">
+                    <a href="#poster-list">{{ $data.display }}</a>
                 {{ else }}
             <td class="{{ $data.type }}">
                     {{ $data.display }}

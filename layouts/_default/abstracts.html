@@ -1,10 +1,10 @@
 {{ define "main" }}
-{{ $pgr_speakers := $.Site.Data.all_speakers.speakers}}
+{{ $speakers := $.Site.Data.all_speakers.speakers}}
 <section class="content">
     <h1>Abstracts</h1>
     <br>
     {{ .Content }}
-    {{ range sort $pgr_speakers "name" }}
+    {{ range sort $speakers "name" }}
     {{ if eq .abstract "poster" }}
     <h4 id="{{ .id }}"><a href="/conf-2024/schedule#{{ .id }}">{{ .name }}</a></h4>
     <p class="abstract">Poster</p>
