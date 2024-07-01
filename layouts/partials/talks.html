@@ -17,11 +17,10 @@
             {{ if eq $event.format "multi-speaker" }}
                 <h4 id="{{ $data.id }}-det"> {{ $event.display }} </h4>
                 <a class="time" href="#{{ $data.id }}-tab">{{ index $slotIDmap $slotID }}</a>
-                <p>
-                    <ul>
+                <p><ul>
                     {{ if eq $event.type "pgr-pres" }}
                         {{ range where $pgr_speakers "id" "in" $event.speakerlist }}
-                    <li id="pgr-{{ .id }}"><a href="/conf-2024/abstracts#pgr-{{ .id }}">{{ .name }}</a></li>
+                    <li id="{{ .id }}"><a href="/conf-2024/abstracts#{{ .id }}">{{ .name }}</a></li>
                     <!-- <li>{{ .name }}</li> -->
                         {{ end }}
                     {{ else }}
