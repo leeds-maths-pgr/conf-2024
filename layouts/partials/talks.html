@@ -29,12 +29,16 @@
                         <li>{{ . }}</li>
                         {{ end }}
                     {{ end }}
-                    </ul>
+                </ul>
                 </p>
             {{ else if eq $event.format "single-speaker" }}
                 <h4 id="{{ $data.id }}-det"> {{ $event.display }} </h4>
-                <!-- <h5 class="speaker">{{ $event.speaker }}</h5> -->
                 <a class="time" href="#{{ $data.id }}-tab">{{ index $slotIDmap $slotID }}</a><br>
+                {{ if $event.hasAbstract }}
+                <p><ul><li><a href="/conf-2024/abstracts#{{ $event.hasAbstract }}">{{ $event.speaker }}</a></li></ul></p>
+                {{ else }}
+                <h5 class="speaker">{{ $event.speaker }}</h5>
+                {{ end }}
                 <br />
             {{ end }}
             <br>
