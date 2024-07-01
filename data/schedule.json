@@ -9,9 +9,9 @@
         ],
         "rows": [
             [{"display": "09:00-09:30", "type": "time"},
-             {"display": "Breakfast", "type": "break"},
-             {"display": "Breakfast", "type": "break"},
-             {"display": "Breakfast", "type": "break"}],
+             {"display": "Breakfast [RR]", "type": "break"},
+             {"display": "Breakfast [RR]", "type": "break"},
+             {"display": "Breakfast [DV]", "type": "break"}],
 
             [{"display": "09:30-10:30", "type": "time"},
              {"id": "pgr1"},
@@ -19,9 +19,9 @@
              {"id": "pgr6"}],
 
             [{"display": "10:30-11:00", "type": "time"},
-             {"display": "Mini break", "type": "break"},
-             {"display": "Mini break", "type": "break"},
-             {"display": "Mini break", "type": "break"}],
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": "Mini break [DV]", "type": "break"}],
 
             [{"display": "11:00-12:00", "type": "time"},
              {"id": "pgr2"},
@@ -29,34 +29,34 @@
              {"id": "panelaca"}],
 
             [{"display": "12:00-13:00", "type": "time"},
-             {"display": "Lunch", "type": "break"},
-             {"display": "Lunch", "type": "break"},
-             {"display": "Lunch", "type": "break"}],
+             {"display": "Lunch [RR]", "type": "break"},
+             {"display": "Lunch [RR]", "type": "break"},
+             {"display": "Lunch [DV]", "type": "break"}],
 
             [{"display": "13:00-14:00", "type": "time"},
              {"id": "workshop2"},
              {"id": "pgr5"},
-             {"display": "Closing and Awards", "type": "social"}],
+             {"display": "Closing and Awards [RS]", "type": "social"}],
 
             [{"display": "14:00-14:30", "type": "time"},
-             {"display": "Coffee & cake break", "type": "break"},
-             {"display": "Coffee & cake break", "type": "break"}],
+             {"display": "Coffee break [RR]", "type": "break"},
+             {"display": "Coffee break [RR]", "type": "break"}],
             
             [{"display": "14:30-15:30", "type": "time"},
              {"id": "ext1"},
              {"id": "panelnon"}],
 
             [{"display": "15:30-16:00", "type": "time"},
-             {"display": "Mini break", "type": "break"},
-             {"display": "Pub", "type": "social"}],
+             {"display": "Mini break [RR]", "type": "break"},
+             {"display": " ", "type": "social"}],
 
             [{"display": "16:00-17:00", "type": "time"},
              {"id": "pgr3"},
-             {"display": "Quiz", "type": "social"}],
+             {"display": "Pub quiz social [EC]", "type": "social"}],
 
             [{"display": "17:00-18:00", "type": "time"},
-             {"display": "Posters + Wine & cheese", "type": "social"},
-             {"display": "Social", "type": "social"}]
+             {"display": "Posters + Cheese & Wine [RR]", "type": "social"},
+             {"display": " ", "type": "social"}]
         ]
     },
     "slotIDmap": {

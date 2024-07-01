@@ -1,37 +1,43 @@
 {
     "events": {
         "ext1":{
-            "display": "Plenary talk: TBD",
+            "display": "Plenary talk",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Richard Mann — University of Leeds"
+            "speaker": "Richard Mann: Collective decision-making by rational agents"
         },
         "workshop1":{
-            "display": "Careers Workshop",
+            "display": "Careers workshop",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Steve — Careers Centre, University of Leeds "
+            "speaker": "Steve — Careers Centre, University of Leeds"
         },
         "workshop2":{
-            "display": "MathsCity Workshop",
+            "display": "MathsCity workshop",
             "type": "alt-pres",
             "format": "single-speaker",
-            "speaker": "Max — MathsCity"
+            "speaker": "Max: Mathematics communication and engagement"
         },
         "panelaca": {
             "display": "Academic careers panel",
-            "type": "alt-pres",
+            "type": "careers",
             "format": "multi-speaker",
             "speakerlist": [
-                "TBD"
+                "Andrei Igoshev",
+                "Jonathan Schilhan",        
+                "Robert Barham",
+                "Steve Fitzgerald"
             ]
         },
         "panelnon": {
             "display": "Non-Academic careers panel",
-            "type": "alt-pres",
+            "type": "careers",
             "format": "multi-speaker",
             "speakerlist": [
-                "TBD"
+                "Bea Adam-Day — Digital Health and Care Wales",
+                "Carlos Dibaya — Lloyds Banking Group",
+                "Christina Pontin — Mott MacDonald",
+                "Sam Elliott — Apple"
             ]
         },
         "pgr1": {

@@ -2,11 +2,11 @@
 {{ $pgr_speakers := $.Site.Data.pgr_speakers.speakers}}
 <section class="content">
     <h1>Abstracts</h1>
-
+    <br>
     {{ .Content }}
     {{ range sort $pgr_speakers "name" }}
     {{ if eq .abstract "poster" }}
-    <h4 id="pgr-{{ .id }}"><a href="/conf-2024/schedule#pgr-{{ .id }}">{{ .name }} — {{ .title }}</a></h4>
+    <h4 id="pgr-{{ .id }}"><a href="/conf-2024/schedule#pgr-{{ .id }}">{{ .name }}</a></h4>
     <p>Poster</p>
     {{ else }}
     <h4 id="pgr-{{ .id }}"><a href="/conf-2024/schedule#pgr-{{ .id }}">{{ .name }} — {{ .title }}</a></h4>

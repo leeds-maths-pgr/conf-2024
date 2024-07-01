@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 The School of Mathematics of the University of Leeds is proud to host its annual conference specially for the postgraduate researchers, bringing together PGRs across all groups and years to:
 - foster understanding of what other people in the School of Maths are doing;
 - strengthen the community within the School of Maths; and

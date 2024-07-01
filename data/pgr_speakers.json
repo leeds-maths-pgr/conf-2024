@@ -1,65 +1,65 @@
 {
     "speakers": [
-        {"id": "AM",
+      {"id": "MT",
+       "name": "Mervyn Tong",
+       "title": "Graph-theoretic tameness via model theory",
+       "abstract": "Tameness is a desirable attribute in every area of mathematics. I present two problems in graph theory that reflect two facets of combinatorialists' pursuit of tameness in graphs: Zarankiewicz's problem, which asks for bounds on the size of a graph that omits a certain configuration, and Szemerédi's regularity lemma, which allows a graph to be partitioned into well-behaved cells. Along the way, I discuss how model theory helps us to both understand the reason behind such tameness phenomena and provide better bounds."
+      },
+      {"id": "AS",
+       "name": "Anna Sigalou",
+       "title": "Long-term behaviour social decision-making rules",
+       "abstract": "Faced with choices under uncertainty, social animals source information from their conspecifics. This social information can help mitigate against poor personal information, and ameliorate decision-making quality; but it may also amplify poor information, leading to poor information cascades. A crucial factor in determining the outcome of social decision-making is the way social information is used by animals -i.e. their decision-making strategy. By modeling decision-making as a Markov process, we can get insights about the long-term tendencies of different decision-making strategies. Subsequently we can infer which strategies are more prone to traits such as poor information cascades. Lastly, by comparing the observed behaviour of different species and the predictions on the aforementioned models, we can make educated guesses about the underlying decision-making mechanisms these species follow."
+      },
+      {"id": "MA",
+        "name": "Matthew Asker",
+        "title": "Spatial Structure and Environmental Dynamics in Microbial Populations",
+        "abstract": "Microbial populations evolve within spatially structured and dynamically changing environments, a reality often overlooked by classical modelling approaches. From microbial infections spreading across host organs to environmental pollutants altering ecological niches, understanding the effects of and interplay between spatial structure and environmental change is essential for developing insights into the evolutionary dynamics of microbial communities. Here, we present a comprehensive analysis of a two-species metapopulation model, incorporating selection bias, to investigate how microbial species evolve while competing for a varying level of resources. Our analytical framework provides insights into the non-trivial behaviour of the fixation probability and mean fixation time across network structures in one dimension. Additionally, Monte Carlo simulations offer a deeper understanding of the complex dynamics on a two-dimensional lattice, extending beyond the scope of analytical predictions. By combining analytical and computational methodologies, we uncover the rich dynamics underlying microbial population evolution in spatially structured and dynamically changing environments."
+      },
+      {"id": "LS",
+       "name": "Luca Seemungal",
+       "title": "Doing my Nash-ional Service",
+       "abstract": "Whereas John Forbes Nash Jr. is most well-known on the one hand amongst the general public for being the subject of the 2001 film 'A Beautiful Mind' and on the other hand amongst the scientifically-minded masses for the Nash equilibrium in game theory, for those of us who forever dwell in the house of geometric analysis he is celebrated for his remarkable Embedding Theorem (Annals of Mathematics, 1956), which completely and perfectly answers fundamental questions raised by the extrinsic-intrinsic counterpoint of the 18th Century theory of differentiable surfaces on the one hand and the late 19th Century theory of Riemann surfaces on the other; in doing so, Nash initiates geometric analysis and the modern theory of PDE. In this talk I humbly do my duty as a geometric analyst and narrate this story, wherewith I hope to impart on you some sense of just how momentous this theorem is, which to my mind is one of the most dazzling theorems of the previous century. (Credit for title: Calli.)"
+      },
+      {"id": "CRS",
+        "name": "Calliope Ryan-Smith",
+        "title": "Domination and boundedness",
+        "abstract": "Bounding and domination are relationships between sequences of numbers that are studied in set theory and give us insight into the structure of the set of real numbers. I shall present an overview of these relations and describe their importance to set theory."
+      },
+      {"id": "BM",
+       "name": "Benjamin Morris",
+       "title": "A Diagram Category for Non-Orientable Surfaces",
+       "abstract": "In this talk I will present the construction of a discrete two-parameter tensor category that generalises the Temperley-Lieb category, and has a diagrammatic calculus consisting of embedded curves in a once-bounded surface."
+      },
+      {"id": "LG",
+        "name": "Lenny Greenfield",
+        "title": "Orbits on Graph Colourings ",
+        "abstract": "We consider the set of all possible colourings of a finite graph using a finite number of colours. We define an action of the automorphism group of the graph on the set of all colourings where two colourings are equivalent if there exists an automorphism that moves the colours of vertices in one colouring to the colours of vertices in the other colouring. In this talk we will discuss methods for calculating the number of distinct colourings when the automorphism group action on the graph is primitive."
+      },
+      {"id": "HD",
+        "name": "Hope Duncan",
+        "title": "TBD",
+        "abstract": "TBD"
+      },
+      {"id": "AM",
         "name": "Angus Matthews",
         "title": "The F-Conviviality graph",
         "abstract": "In this talk we will introduce the F-conviviality graph, a concept from matroid theory, and discuss its connections to model theory."
-        },
-        {"id": "AS",
-         "name": "Anna Sigalou",
-         "title": "Long-term behaviour social decision-making rules",
-         "abstract": "Faced with choices under uncertainty, social animals source information from their conspecifics. This social information can help mitigate against poor personal information, and ameliorate decision-making quality; but it may also amplify poor information, leading to poor information cascades. A crucial factor in determining the outcome of social decision-making is the way social information is used by animals -i.e. their decision-making strategy. By modeling decision-making as a Markov process, we can get insights about the long-term tendencies of different decision-making strategies. Subsequently we can infer which strategies are more prone to traits such as poor information cascades. Lastly, by comparing the observed behaviour of different species and the predictions on the aforementioned models, we can make educated guesses about the underlying decision-making mechanisms these species follow."
-        },
-        {"id": "CRS",
-         "name": "Calliope Ryan-Smith",
-         "title": "Domination and boundedness",
-         "abstract": "Bounding and domination are relationships between sequences of numbers that are studied in set theory and give us insight into the structure of the set of real numbers. I shall present an overview of these relations and describe their importance to set theory."
-        },
-        {"id": "LG",
-         "name": "Lenny Greenfield",
-         "title": "Orbits on Graph Colourings ",
-         "abstract": "We consider the set of all possible colourings of a finite graph using a finite number of colours. We define an action of the automorphism group of the graph on the set of all colourings where two colourings are equivalent if there exists an automorphism that moves the colours of vertices in one colouring to the colours of vertices in the other colouring. In this talk we will discuss methods for calculating the number of distinct colourings when the automorphism group action on the graph is primitive."
-        },
-        {"id": "MA",
-         "name": "Matthew Asker",
-         "title": "Spatial Structure and Environmental Dynamics in Microbial Populations",
-         "abstract": "Microbial populations evolve within spatially structured and dynamically changing environments, a reality often overlooked by classical modelling approaches. From microbial infections spreading across host organs to environmental pollutants altering ecological niches, understanding the effects of and interplay between spatial structure and environmental change is essential for developing insights into the evolutionary dynamics of microbial communities. Here, we present a comprehensive analysis of a two-species metapopulation model, incorporating selection bias, to investigate how microbial species evolve while competing for a varying level of resources. Our analytical framework provides insights into the non-trivial behaviour of the fixation probability and mean fixation time across network structures in one dimension. Additionally, Monte Carlo simulations offer a deeper understanding of the complex dynamics on a two-dimensional lattice, extending beyond the scope of analytical predictions. By combining analytical and computational methodologies, we uncover the rich dynamics underlying microbial population evolution in spatially structured and dynamically changing environments."
-        },
-        {"id": "MV",
-         "name": "Matthew Vine",
-         "title": "Parametric Instabilities of Alfvén-Gravity Waves",
-         "abstract": "In Boussinesq fluids, instabilities of small-amplitude internal gravity waves (IGWs) can be attributed to resonant triad interactions between three IGWs. The picture is a little more complex when we introduce a uniform background magnetic field. Under this configuration, two types of wave can partake in the resonant interactions: pure Alfvén waves and hybrid Alfvén-gravity waves. We contour the growth rate of such instabilities numerically using a Floquet solver and identify which types of wave are interacting to produce the instabilities shown. This work is relevant in stably-stratified fluids permeated by magnetic fields, with radiative zones in stellar interiors being a notable example."
-        },
-        {"id": "MT",
-         "name": "Mervyn Tong",
-         "title": "Graph-theoretic tameness via model theory",
-         "abstract": "Tameness is a desirable attribute in every area of mathematics. I present two problems in graph theory that reflect two facets of combinatorialists' pursuit of tameness in graphs: Zarankiewicz's problem, which asks for bounds on the size of a graph that omits a certain configuration, and Szemerédi's regularity lemma, which allows a graph to be partitioned into well-behaved cells. Along the way, I discuss how model theory helps us to both understand the reason behind such tameness phenomena and provide better bounds."
-        },
-        {"id": "BDS",
-         "name": "Ben De Smet",
-         "title": "TBD",
-         "abstract": "TBD"
-        },
-        {"id": "LS",
-         "name": "Luca Seemungal",
-         "title": "TBD",
-         "abstract": "TBD"
-        },
-        {"id": "HD",
-         "name": "Hope Duncan",
-         "title": "TBD",
-         "abstract": "TBD"
-        },
-        {"id": "BM",
-         "name": "Benjamin Morris",
-         "title": "TBD",
-         "abstract": "TBD"
-        },
-        {"id": "YL",
-         "name": "Yang Lu",
-         "title": "TBD",
-         "abstract": "TBD"
-        },
+      },
+      {"id": "YL",
+        "name": "Yang Lu",
+        "title": "TBD",
+        "abstract": "TBD"
+      },
+      {"id": "MV",
+       "name": "Matthew Vine",
+       "title": "Parametric Instabilities of Alfvén-Gravity Waves",
+       "abstract": "In Boussinesq fluids, instabilities of small-amplitude internal gravity waves (IGWs) can be attributed to resonant triad interactions between three IGWs. The picture is a little more complex when we introduce a uniform background magnetic field. Under this configuration, two types of wave can partake in the resonant interactions: pure Alfvén waves and hybrid Alfvén-gravity waves. We contour the growth rate of such instabilities numerically using a Floquet solver and identify which types of wave are interacting to produce the instabilities shown. This work is relevant in stably-stratified fluids permeated by magnetic fields, with radiative zones in stellar interiors being a notable example."
+      },
+      {"id": "BDS",
+       "name": "Ben De Smet",
+       "title": "Manifolds in O-minimal Structures",
+       "abstract": "Reasons to come to this talk are manifold."
+      },
         {"id": "01",
          "name": "Gautam Chaudhuri",
          "title": "TBD",
