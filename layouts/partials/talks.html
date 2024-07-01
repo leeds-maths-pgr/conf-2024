@@ -33,7 +33,7 @@
                 </p>
             {{ else if eq $event.format "single-speaker" }}
                 <h4 id="{{ $data.id }}-list"> {{ $event.display }} </h4>
-                <a class="time" href="#{{ $data.id }}-tab">{{ index $slotIDmap $slotID }}</a><br>
+                <a class="time" href="#{{ $data.id }}-tab"><em>{{ index $slotIDmap $slotID }}</em></a><br>
                 <p class="speaker" >Speaker:
                 {{ if $event.hasAbstract }}
                     <a id="{{ $event.hasAbstract }}" href="/conf-2024/abstracts#{{ $event.hasAbstract }}">{{ $event.speaker }}</a>
@@ -41,7 +41,6 @@
                     {{ $event.speaker }}
                 {{ end }}
                 </p>
-                <br />
             {{ end }}
             <br>
         {{ end }}
