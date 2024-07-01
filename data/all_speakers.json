@@ -99,6 +99,16 @@
           "name": "Xiangyu Wu",
           "title": "TBD",
           "abstract": "poster"
+        },
+        {"id": "ex1",
+         "name": "Richard Mann",
+         "title": "Collective decision-making by rational agents",
+         "abstract": "The decisions made by others are a valuable source of information about the world, because they may have knowledge that we lack. This means that when one agent makes a given choice, it can induce others to do so as well. In this talk I will describe a theory of rational agents who optimally utilise the social information provided by others, and explore the dynamics this produces at the individual and group level. In particular, I will show how the implicit beliefs such agents hold about the physical and social environment shape their response to each other, and how changes to the environment that conflict with these beliefs can dramatically alter collective behaviour and impact the success of groups."
+        },
+        {"id": "ex2",
+         "name": "Max",
+         "title": "Mathematics communication and engagement",
+         "abstract": "TBD"
         }
     ]
 }
